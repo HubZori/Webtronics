@@ -1,0 +1,60 @@
+@import './color-variables.scss';
+
+@mixin font($font, $weight) {
+  font-size: $font;
+  font-weight: $weight;
+}
+
+@mixin wrapper-1750px {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@mixin wrapper-375px {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+@mixin container-1750px {
+  margin: 0 50px;
+}
+
+@mixin container-375px {
+  margin: 0 18px;
+}
+
+// zoom
+@mixin zoom-1659px {
+  zoom: 75%;
+}
+
+@mixin zoom-1400px {
+  zoom: 65%;
+}
+
+@mixin zoom-1200px {
+  zoom: 56%;
+}
+
+@mixin zoom-992px {
+  zoom: 43%;
+}
+
+@mixin zoom-768px {
+  zoom: 26%;
+}
+
+@mixin zoom-480px {
+  zoom: 20%;
+}
+
+@mixin zoom-375px {
+  zoom: 0%;
+}
+
+@mixin zoom-320px {
+  // zoom: 17%;
+  zoom: 0;
+}

@@ -1,0 +1,70 @@
+@import "../../../styles/mixin.scss";
+@import "../../../styles/color-variables.scss";
+
+.wrapper {
+  @include wrapper-1750px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  background-color: $bg;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  @include container-1750px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 200px;
+  border-radius: 20px;
+}
+.ellipse{
+  position: absolute;
+  top: 250px;
+  right: -95px;
+  width: 356px;
+  height: 356px;
+  background: #2a3e84;
+  filter: blur(175px);
+  z-index: 0;
+}
+.star24 {
+  position: absolute;
+  top: 350px;
+  right: -100px;
+}
+
+.title {
+  @include font(72px, 600);
+  text-align: center;
+  line-height: 120%;
+  color: $white;
+  max-width: max-content;
+  width: 543px;
+  height: 172px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  &_text {
+    
+  @include font(24px, 500);
+    max-width: 340px;
+    &__title{
+      margin-bottom: 15px;
+    }
+    &__text{
+      
+  @include font(16px, 400);
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.wrapper {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.primary {
+  background-image: url(../../../public/logo.png);
+}
+
+.secondary {
+  background-image: url(../../../public/logowebtronics2.png);
+}

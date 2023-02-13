@@ -1,0 +1,27 @@
+// Format should be -> (color)_(100 > number < 900)
+// Example: red_100
+
+$transparent: rgba(28, 28, 28, 0);
+$primary: #0d325a;
+$black_100: #323131;
+$black_150: #151515;
+$black_200: #000;
+$white: #fff;
+$on_white: #000;
+$gray_100: #f3f3f3;
+$gray_150: #f7f7f7;
+$gray_200: #d0d0d0;
+$gray_250: #c0c0c0;
+$gray_300: #b4b4b4;
+$gray_400: #9a9a9a;
+$danger: #ff0000;
+$red: #c33426;
+$blue: #0055d6;
+$yellow: #fff496;
+$Primary_100: #0a1482;
+$bg: #0c102d;
+$gradient: linear-gradient(
+  152.14deg,
+  rgba(21, 191, 253, 0.7) 9.96%,
+  rgba(156, 55, 253, 0.7) 100%
+);

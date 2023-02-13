@@ -1,0 +1,146 @@
+@import "../../../styles/mixin.scss";
+@import "../../../styles/color-variables.scss";
+@import "../../../styles/fonts.scss";
+
+.wrapper {
+  @include wrapper-1750px;
+  min-height: 780px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+
+  &_background {
+    position: absolute;
+    opacity: 0.4;
+    box-shadow: 0px 0px 101px 0px #0c102d;
+  }
+}
+
+.container {
+  @include container-1750px;
+  margin-right: 10%;
+  position: relative;
+  margin-top: 200px;
+}
+
+.title {
+  @include font(60px, 800);
+  display: flex;
+  align-items: flex-end;
+  color: $white;
+  max-width: max-content;
+
+  &__small {
+    @include font(16px, 400);
+    width: 310px;
+  }
+
+  &__large {
+    @include font(150px, 600);
+    width: 775px;
+    height: 140px;
+  }
+}
+.title_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  & .large {
+    @include font(150px, 600);
+    margin-left: 20px;
+  }
+}
+.title__courses {
+  @include font(32px, 600);
+  display: flex;
+  flex-direction: row-reverse;
+}
+.title_bottom__button {
+  @include font(20px, 600);
+  width: 288px;
+  height: 72px;
+  left: 348px;
+  top: 397px;
+  background: linear-gradient(180deg, #1ff2ff 0%, #27f9e5 52.66%, #2fffcd 100%);
+  border-radius: 8px;
+  color: #0a1482;
+}
+
+.rectangle {
+  &__ellipse_1 {
+    position: absolute;
+    width: 356px;
+    height: 356px;
+    left: 293px;
+    top: 499px;
+    background: #2a3e84;
+    filter: blur(175px);
+  }
+  &__ellipse_2 {
+    position: absolute;
+    width: 356px;
+    height: 356px;
+    left: 1424px;
+    top: 388px;
+    background: #2a3e84;
+    filter: blur(175px);
+  }
+}
+
+.star7 {
+  position: absolute;
+  right: 50px;
+  top: 620px;
+}
+.star9 {
+  position: absolute;
+  top: 780px;
+  right: 40em;
+}
+.star2 {
+  position: absolute;
+  top: 770px;
+  right: 58em;
+}
+.star4 {
+  position: absolute;
+  left: 26%;
+  top: 830px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    background-image: none;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    @include wrapper-375px;
+  }
+
+  .container {
+    @include container-375px;
+  }
+
+  .title {
+    @include font(20px, 800);
+    max-width: 190px;
+
+    &__small {
+      @include font(16px, 400);
+    }
+  }
+
+  .image_box {
+    position: absolute;
+    top: 5px;
+    left: -40px;
+    z-index: -100;
+    width: 120px;
+    height: 120px;
+  }
+}

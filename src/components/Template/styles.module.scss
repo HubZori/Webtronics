@@ -1,0 +1,73 @@
+/* @import '../../styles/fonts.scss'; */
+@import "../../../styles/mixin.scss";
+@import "../../../styles/color-variables.scss";
+/*
+*/
+.template {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  background: #0C102D;
+}
+/* 
+
+
+  background: #0C102D;
+  background-image: url(../../../public/viewprogrammer.png);
+  background-repeat: inherit;
+  background-size: 100%;
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+@media (max-width: 1659px) {
+  .main {
+    @include zoom-1659px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .main {
+    @include zoom-1400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main {
+    @include zoom-1200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main {
+    @include zoom-992px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    @include zoom-768px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    @include zoom-480px;
+  }
+}
+
+@media (max-width: 375px) {
+  .main {
+    @include zoom-375px;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main {
+    @include zoom-320px;
+  }
+} */
+ 
