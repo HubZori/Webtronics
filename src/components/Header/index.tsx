@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Logo } from "../Logo";
+import { Logo } from "src/components/Logo";
 import s from "./styles.module.scss";
 
 interface NavigationItem {

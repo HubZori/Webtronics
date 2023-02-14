@@ -1,5 +1,5 @@
 import { useForm, SubmitHandler } from "react-hook-form";
-import api from "../../api/feedback";
+import api from "src/api/feedback";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import "yup-phone";

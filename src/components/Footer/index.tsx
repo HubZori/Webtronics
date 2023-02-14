@@ -1,5 +1,5 @@
 import s from "./styles.module.scss";
-import { Logo } from "../Logo/index";
+import { Logo } from "src/components/Logo";
 interface NavigationItem {
   id: string;
   title?: string;
